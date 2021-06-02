@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Especializados en diseño de interiores, construcción y dirección de obras - Remodelaciones y Ampliaciones Integrales - Diseño 3D - Begega Construcciones">
+    <meta name="keywords"
+        content="diseño, interior, diseño interiores, construcciones, obras, remodelaciones, arreglos">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="imagenes/logobegeganeg.png" type="image/png" sizes="80x80">
+    <title>Diseño de Interiores y Direccion de obras - BEGEGA Construcciones</title>
+</head>
+
+<body>
+    <header>
+        <!--Empieza el logo, en reemplazo del texto como h1-->
+        <h1 class="logo">
+            <a href="index.html"><img class="imagenLogo" src="imagenes/logobegeganeg.png"
+                    alt="BEGEGA Construcciones"></a>
+        </h1>
+        <!--termina el logo-->
+        <!--Empieza el menu navegador de la web-->
+        <nav class="menu">
+            <!--esto es una barra de navegacion-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a>
+                    <ul>
+                        <li><a href="servicios.html">Diseño 3D</a></li>
+                        <li><a href="servicios.html">Proyecto y Dirección</a></li>
+                        <li><a href="servicios.html">Remodelación Integral</a></li>
+                        <li><a href="servicios.html">Construcciones</a></li>
+                        <li><a href="servicios.html">Asesoramiento Personalizado</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </ul>
+        </nav>
+    </header>
+    <!--termina el navegador-->
+    <!--esta es la imagen que va a ser el banner de la web-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="servicios.html"><img class="d-block w-100" src="imagenes/estudiointegral.jpg"
+                        alt="First slide"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="Contacto.html"><img class="d-block w-100" src="imagenes/asesoramientop.jpg"
+                        alt="Second slide"></a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <main>
+        <div id="index">
+            <!--Seccion de la web donde se mencionan los servicios ofrecidos-->
+            <h2 class="tipoH2">SERVICIOS
+            </h2>
+            <section class="servicios">
+                <div>
+                    <!--esto va a estar en 1 fila de 3 imagenes-->
+                    <h3 class="tipoServicios">REMODELACIONES INTEGRALES</h3>
+                    <a href="servicios.html"><img class="imagenRemodelaciones" src="imagenes/foto2.jpg"
+                            alt="Foto de ambiente remodelado local"></a>
+                    <P>Remodelamos tu espacio de acuerdo a tu presupuesto.</P>
+                </div>
+                <div>
+                    <h3 class="tipoServicios">DISEÑO INTERIORES 3D</h3>
+                    <a href="servicios.html"><img class="imagenDiseño" src="imagenes/foto3.jpg"
+                            alt="Foto de ambiente remodelado local"></a>
+                    <p>Diseñamos y te asesoramos de acuerdo a tu distribución y mobiliario elegido.</p>
+                </div>
+                <div>
+                    <h3 class="tipoServicios">DIRECCIÓN DE OBRA</h3>
+                    <a href="servicios.html"><img class="imagenConstruccion" src="imagenes/foto1.jpg"
+                            alt="Foto de ambiente remodelado local"></a>
+                    <p>Construimos y dirigimos la obra desde sus inicios. Presentamos proyecto y entregamos obra
+                        finalizada.</p>
+                </div>
+            </section>
+            <!--Termina la seccion de servicios ofrecidos-->
+        </div>
+        <div id="blog">
+            <!--Seccion del Blog-->
+            <h2 class="tipoH2">BLOG</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h3 class="tipoH3">¿Cómo elegir mi paleta de colores?</h3>
+                        <a href="blog.html"><img src="imagenes/fotoblog.jpg" alt="First slide"></a>
+                        <p>Planificar la paleta de colores que vas a darle a tu proyecto de decoración es el paso mas
+                            importante a definir antes de comenzar.
+                            Esto le va a dar la personalidad deseada y armonía al diseño.</p>
+                        <a class="verMas" href="blog.html">
+                            <h5>Ver más</h5>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <h3 class="tipoH3">Estilo Contemporáneo</h3>
+                        <a href="blog.html"><img src="imagenes/fotoblog2.jpg" alt="Second slide"></a>
+                        <p>El diseño contemporáneo presenta materiales de vanguardia, vidrio y metales.
+                            Las paredes y los muebles blancos que combinan, son un punto fuerte para conseguir el estilo
+                            contemporáneo.</p>
+                        <a class="verMas" href="blog.html">
+                            <h5>Ver más</h5>
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--termina la seccion del blog-->
+        </div>
+    </main>
+    <footer>
+        <!--Empieza el footer, en 1 fila de 3 columnas, aplicando Camel Case-->
+        <section class="caja">
+            <div class="primerCaja">
+                <p class="tituloFooter">NOSOTROS</p>
+                <a href="Nosotros.html">
+                    <p class="linkFooter">Quiénes Somos</p>
+                </a>
+            </div>
+            <div class="segundaCaja">
+                <p class="tituloFooter">CONTACTO</p>
+                <p class="subFooter">Begega.Cons@gmail.com</p>
+                <a href="Contacto.html">
+                    <p class="linkFooter">Saber más</p>
+                </a>
+            </div>
+            <div class="terceraCaja">
+                <p class="tituloFooter">SERVICIOS</p>
+                <a href="servicios.html">
+                    <p class="linkFooter">Remodelación</p>
+                </a>
+                <a href="servicios.html">
+                    <p class="linkFooter">Diseño interiores</p>
+                </a>
+                <a href="servicios.html">
+                    <p class="linkFooter">Construccion</p>
+                </a>
+            </div>
+        </section>
+        <!--termina el footer-->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
